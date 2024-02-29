@@ -1,0 +1,7 @@
+编译示例：gcc modify.c -o modify -lz  
+
+使用示例：./modify input_R1.fastq.gz input_R2.fastq.gz output_R1.fastq.gz output_R2.fastq.gz  
+
+1. 先进行 "filter.c": ./filter input_R1.fastq.gz input_R2.fastq.gz output_R1.fastq.gz output_R2.fastq.gz  
+
+2. 上一步结果文件再进行"modify"：./modify output_R1.fastq.gz output_R2.fastq.gz   finaloutput_R1.fastq.gz finaloutput_R2.fastq.gz
