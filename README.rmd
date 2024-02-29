@@ -1,3 +1,6 @@
+### 初步filtering，最终保留 UMI 和 无 UMI的有效数据  
+https://www.notion.so/01e03ca15f8241b8aa76abd4a32187c5?pvs=4
+
 编译示例：gcc modify.c -o modify -lz  
 
 使用示例：./modify input_R1.fastq.gz input_R2.fastq.gz output_R1.fastq.gz output_R2.fastq.gz  
